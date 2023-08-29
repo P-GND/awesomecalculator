@@ -1,9 +1,6 @@
-import os.path
-import sys
+
 import unittest
 
-src_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) + "/src/sendmail/"
-sys.path.append(src_path)
 from sendmail.sendmail import make_list
 
 
@@ -23,5 +20,3 @@ class TestListElements(unittest.TestCase):
         self.assertListEqual(make_list(self.test2), self.expected)
 
 
-if __name__ == "__main__":
-    unittest.main()
