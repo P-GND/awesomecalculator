@@ -1,8 +1,6 @@
 [build-system]
 requires = [
     "setuptools>=42",
-    "wheel",
-    "markdown~=3.4.4",
-    "sendgrid~=6.10.0"
+    "wheel"
 ]
 build-backend = "setuptools.build_meta"
