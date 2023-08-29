@@ -1,7 +1,7 @@
 
 import unittest
 
-from sendmail.sendmail import make_list
+import sendmail.sendmail
 
 
 class TestListElements(unittest.TestCase):
